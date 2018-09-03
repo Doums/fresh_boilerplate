@@ -1,5 +1,5 @@
-## Fresh and minimalist webpack boilerplate
-**Ready to use React App built using [webpack](https://webpack.js.org/)**
+## Fresh and minimalist React boilerplate
+**Built using [webpack](https://webpack.js.org/)**
 
 ***Goal***
 > *Make a simple and lightweight boilerplate from scratch*
