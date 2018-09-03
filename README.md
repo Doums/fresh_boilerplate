@@ -13,7 +13,7 @@
  - Source Maps
 
 ***installation***
-`$ git clone https://doums_@bitbucket.org/doums_/react_boilerplate.git`
+`$ git clone https://github.com/doums/fresh_boilerplate.git`
 
 ***run for development***
 `$ npm start`
