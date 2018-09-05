@@ -4,7 +4,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
   entry: {
-    app: './src/index.js'
+    app: './src/index.js',
+    polyfill: '@babel/polyfill'    // is to enable async/await support
   },
   output: {
     filename: '[name].bundle.js',
