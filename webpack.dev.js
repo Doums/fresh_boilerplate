@@ -12,7 +12,8 @@ module.exports = merge(common, {
     port: 3020,
     hot: true,
     hotOnly: true,
-    clientLogLevel: 'none'
+    clientLogLevel: 'none',
+    historyApiFallback: true
     // open: true
   },
   plugins: [
