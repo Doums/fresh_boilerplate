@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
@@ -35,5 +36,8 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-hot-loader": "^4.3.5"
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
