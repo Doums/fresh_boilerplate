@@ -34,6 +34,8 @@ module.exports = {
       "error",
       "never"
     ],
-    "no-console": "warn"
+    "no-console": "warn",
+    "react/prop-types": 0,
+    "comma-dangle": ["error", "never"]
   }
 };
