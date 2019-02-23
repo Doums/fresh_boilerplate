@@ -38,7 +38,7 @@ module.exports = {
     "no-console": "warn",
     "react/prop-types": 0,
     "comma-dangle": ["error", "never"],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warning"
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 1
   }
 };
