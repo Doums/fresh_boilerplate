@@ -13,7 +13,8 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ],
   "rules": {
     "strict": 0,
@@ -36,6 +37,8 @@ module.exports = {
     ],
     "no-console": "warn",
     "react/prop-types": 0,
-    "comma-dangle": ["error", "never"]
+    "comma-dangle": ["error", "never"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warning"
   }
 };
