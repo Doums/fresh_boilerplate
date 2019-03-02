@@ -14,7 +14,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'black magic',
+      title: 'fresh boilerplate',
       filename: 'index.html',
       template: './public/index.html',
       favicon: './public/favicon.ico'
@@ -42,8 +42,7 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              sourceMap: true,
-              minimize: true
+              sourceMap: true
             }
           }
         ]
