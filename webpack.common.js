@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
   entry: {
-    app: ['./src/index.js']
+    app: './src/index.js'
   },
   output: {
     filename: '[name].bundle.js',
@@ -31,10 +31,10 @@ module.exports = {
           presets: [
             [
               '@babel/preset-env',
-              /*  to add "@babel/polyfill", needed to enable async/await support
+              /*  "@babel/polyfill", needed to enable ES2015+ features
                *  see https://babeljs.io/docs/en/babel-polyfill#usage-in-node-browserify-webpack  */
               {
-                'useBuiltIns': 'entry'
+                useBuiltIns: 'entry'
               }
             ],
             '@babel/preset-react'
