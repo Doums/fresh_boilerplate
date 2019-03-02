@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
   entry: {
-    app: ['@babel/polyfill', './src/index.js'] // is to enable async/await support
+    app: ['./src/index.js']
   },
   output: {
     filename: '[name].bundle.js',
@@ -28,7 +28,17 @@ module.exports = {
         loader: 'babel-loader',
         options: {
           cacheDirectory: true,
-          presets: ['@babel/preset-env', '@babel/preset-react'],
+          presets: [
+            [
+              '@babel/preset-env',
+              /*  to add "@babel/polyfill", needed to enable async/await support
+               *  see https://babeljs.io/docs/en/babel-polyfill#usage-in-node-browserify-webpack  */
+              {
+                'useBuiltIns': 'entry'
+              }
+            ],
+            '@babel/preset-react'
+          ],
           plugins: [
             '@babel/plugin-proposal-class-properties',
             'react-hot-loader/babel'
