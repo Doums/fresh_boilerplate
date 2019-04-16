@@ -1,10 +1,9 @@
 ## Fresh and minimalist React boilerplate
-**Built using [webpack](https://webpack.js.org/)**
 
-***Goal***
-> *Make a simple and lightweight boilerplate from scratch*
+###### :cloud: A simple and lightweight boilerplate written from scratch :cloud:
 
-***main features***
+#### main features
+ - Built with [webpack](https://webpack.js.org/)
  - Hot Module Replacement (HMR)
  - React Hot Loader
  - ESLint
@@ -12,11 +11,17 @@
  - DevServer (webpack-dev-server)
  - Source Maps
 
-***installation***
-`$ git clone https://github.com/doums/fresh_boilerplate.git`
+#### installation
+```
+$ git clone https://github.com/doums/fresh_boilerplate.git
+```
 
-***run for development***
-`$ npm start`
+#### run for development
+```
+$ npm start
+```
 
-***build for production***
-`$ npm run build`
+#### build for production
+```
+$ npm run build
+```
