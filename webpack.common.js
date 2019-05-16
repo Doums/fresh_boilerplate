@@ -31,10 +31,9 @@ module.exports = {
           presets: [
             [
               '@babel/preset-env',
-              /*  "@babel/polyfill", needed to enable ES2015+ features
-               *  see https://babeljs.io/docs/en/babel-polyfill#usage-in-node-browserify-webpack  */
               {
-                useBuiltIns: 'entry'
+                useBuiltIns: 'entry',
+                corejs: 3
               }
             ],
             '@babel/preset-react'
