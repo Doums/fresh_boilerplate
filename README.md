@@ -11,9 +11,14 @@
  - DevServer (webpack-dev-server)
  - Source Maps
 
-#### installation
+#### download
 ```
 $ git clone https://github.com/doums/fresh_boilerplate.git
+```
+
+#### installation
+```
+$ npm i
 ```
 
 #### run for development
