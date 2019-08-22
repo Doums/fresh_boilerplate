@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { hot } from 'react-hot-loader/root'
 import '../style.css'
 
-const App = () => {
-  const [count, setCount] = useState(0)
-  return <div className='hello' />
-}
+const App = () => (
+  <div className='hello'>
+    Fresh and minimalist webpack boilerplate
+  </div>
+)
 
 export default hot(App)
