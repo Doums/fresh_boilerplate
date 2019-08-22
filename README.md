@@ -13,20 +13,20 @@
 
 #### download
 ```
-$ git clone https://github.com/doums/fresh_boilerplate.git
+git clone https://github.com/doums/fresh_boilerplate.git
 ```
 
 #### installation
 ```
-$ npm i
+npm i
 ```
 
 #### run for development
 ```
-$ npm start
+npm start
 ```
 
 #### build for production
 ```
-$ npm run build
+npm run build
 ```
